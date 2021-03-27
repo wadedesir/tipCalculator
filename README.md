@@ -1,12 +1,12 @@
-# [Project Name]
+# Tip Calculator
 
-![(description)](https://raw.githubusercontent.com/your github username/repo name/main/file name.PNG)
+![Tip Calculator thumbnail](https://raw.githubusercontent.com/wadedesir/tipCalculator/main/thumbnail.PNG)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Node.js
 
-[about]
+This is a lightweight tip calculator build on Node.js and express. This application simply takes in the cost of service, tip percentage, and the amount of participants and returns a tip cost for each person.
 
 ## Installation
 
