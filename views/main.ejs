@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/aa1a2a1c33.js" crossorigin="anonymous"></script>
+
+		<title>Tip Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<div class="head">
+				<h1>Tip Calculator</h1>
+			</div>
+
+			<div class="check">
+
+			<form id="calculator" class="costs" action="index.html" method="post">
+				<label for="bill">How much was your total?</label>
+				<input id="bill" type="number" name="bill" placeholder="$">
+
+				<label for="service">How was your service?</label>
+				<select class="service" name="service" form="calculator">
+					<option value="30">30% Amazing!</option>
+					<option value="20">20% As expected.</option>
+					<option value="15">15% It was alright.</option>
+					<option value="10">10% Could have been better.</option>
+					<option value="5">5% Absolutely Horrible.</option>
+					<option value="0">0% I'm calling my lawyer.</option>
+				</select>
+
+				<label for="persons">How many people are paying?</label>
+				<input id="persons" type="number" name="persons" value="">
+			</form>
+
+			<input class="submit" type="button" name="submit" value="Calculate">
+			</div>
+
+		</main>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
